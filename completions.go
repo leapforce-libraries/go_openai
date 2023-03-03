@@ -7,10 +7,10 @@ import (
 )
 
 type CompletionsConfig struct {
-	Model       string `json:"model"`
-	Prompt      string `json:"prompt"`
-	Temperature int    `json:"temperature"`
-	MaxTokens   int    `json:"max_tokens"`
+	Model       string  `json:"model"`
+	Prompt      string  `json:"prompt"`
+	Temperature float64 `json:"temperature"`
+	MaxTokens   int     `json:"max_tokens"`
 }
 
 type CompletionsResponse struct {
